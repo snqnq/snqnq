@@ -53,8 +53,12 @@ ul {
     
 }
 hr.dashed {
-    border-top: 3px dashed #bbb;
-  }
+  border: none;
+  height: 1px;
+  background: #000;
+  background: repeating-linear-gradient(90deg,#000,#000 6px,transparent 6px,transparent 12px);
+  width: 3%;
+}
 .definition {
     padding-left: 100px;
     line-height: 20px;
