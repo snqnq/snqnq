@@ -17,6 +17,7 @@ ul {
   
  .link{
     float: right;
+    padding-right: 5%;
   }
   
   li a {
